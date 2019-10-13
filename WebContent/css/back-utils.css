@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+*{
+	font-family: "微软雅黑";
+	word-wrap: break-word;
+}
+
+.clear{
+	float: none !important;
+	clear: both !important;
+	display: block !important;
+	height: 100% !important;
+	width: 0px !important;
+}
+
+body.layui-layout-body>div>div.layui-body{
+	padding: 15px;
+	bottom: 0px;
+	background-color: #f2f2f2;
+}

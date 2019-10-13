@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+nav{
+	margin-bottom: 0px;
+	background-color: white;
+	border-bottom: 1px solid #efefef;
+}
+footer{
+	border-top: 1px solid #efefef;
+}
+
+#addorders-block{
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px 15px;
+}
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div{
+	width: 250px;
+	border: 1px solid #EFEFEF;
+	border-radius: 2px;
+	padding: 0 16px;
+	display: inline-block;
+	margin: 5px 2px;
+	cursor: pointer;
+}
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div.click,
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div:HOVER{
+	border-color: #ff3f4b;
+}
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div>div:nth-of-type(1){
+	height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 5px 0px;
+    font-size: 13px;
+    border-bottom: 1px solid #EFEFEF;
+}
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div>div:nth-of-type(1)>span:nth-of-type(1){
+	float: left;
+}
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div>div:nth-of-type(1)>span:nth-of-type(2){
+	float: right;
+}
+#addorders-block>form>div.layui-card:nth-of-type(1) .layui-card-body>div>div:nth-of-type(2){
+	font-size: 12px;
+	color: #595959;
+	padding: 10px 0;
+}
+
+#addorders-block>form>div.layui-card:nth-of-type(2) .red{
+	color: #ff3f4b;
+}
+
+#yinfu{
+	margin: 20px 0px;
+    padding: 0px 10px;
+}
+#yinfu>div{
+    min-width: 280px;
+}
+#yinfu>div>.yinfu-font{
+	color: #898989;
+	margin: 8px 0px;
+	display: block;
+}
+#yinfu>div>.yinfu-font>span{
+	float: right;
+}
+#yinfu>div>div>span{
+	color: #e02b41;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#yinfu button{
+	border: 1px solid #F66567;
+    background-color: #F66567;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    min-width: 58px;
+    min-height: 34px;
+    line-height: 34px;
+    transition: .5s all;
+    padding: 0 20px;
+}
+#yinfu button:HOVER {
+	background-color: #ff4f52;
+}
+
+
+
