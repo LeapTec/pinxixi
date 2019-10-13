@@ -14,7 +14,7 @@ import com.pinxixi.utils.Constants;
 import com.pinxixi.vo.Brand;
 
 @WebServlet("/back/BackBrandUpdate")
-public class BackBrandUpdate extends HttpServlet {
+public class BackBrandUpdate extends HttpServlet   {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		response.setCharacterEncoding(Constants.encodingFormat);
